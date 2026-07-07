@@ -138,3 +138,12 @@ div[data-baseweb="select"]>div, .stTextInput input, .stNumberInput input{
    e o indicador de status. Edite aqui para reexibir algo.
    ============================================================ */
 
+/* Esconde Share e demais ações do toolbar */
+[data-testid="stToolbarActions"] {
+    display: none !important;
+}
+
+/* Esconde o menu de três pontos */
+#MainMenu {
+    display: none !important;
+}
