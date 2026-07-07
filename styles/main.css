@@ -137,13 +137,4 @@ div[data-baseweb="select"]>div, .stTextInput input, .stNumberInput input{
    botão Deploy, toolbar superior, badge do viewer, links GitHub/fork
    e o indicador de status. Edite aqui para reexibir algo.
    ============================================================ */
-#MainMenu, footer, header,
-[data-testid="stToolbar"],
-[data-testid="stDecoration"],
-[data-testid="stStatusWidget"],
-/* [data-testid="stHeader"], */
-.stDeployButton, [data-testid="stAppDeployButton"],
-.viewerBadge_container__1QSob, .viewerBadge_link__1S137,
-a[href*="github.com"], a[href*="streamlit.io"]{
-  display:none !important; visibility:hidden !important;
-}
+
