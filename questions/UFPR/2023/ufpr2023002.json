@@ -1,0 +1,47 @@
+{
+  "id": "ufpr2023002",
+  "prova": "UFPR",
+  "ano": 2023,
+  "tema": "Ondulatória",
+  "subtema": "Efeito Doppler",
+  "dificuldade": "Difícil",
+  "enunciado": "Uma ambulância se aproxima de um observador parado. Em relação ao som emitido, o observador percebe:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "frequência menor",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "frequência maior",
+      "correta": true
+    },
+    {
+      "id": "C",
+      "texto": "mesma frequência",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "velocidade menor do som",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "amplitude sempre menor",
+      "correta": false
+    }
+  ],
+  "resolucao": "Na aproximação, as frentes de onda chegam comprimidas: frequência percebida maior (som mais agudo).",
+  "explicacao": "O efeito Doppler altera a frequência percebida quando há movimento relativo entre fonte e observador.",
+  "habilidades": [
+    "H22"
+  ],
+  "tags": [
+    "ondulatória",
+    "efeito doppler"
+  ],
+  "fonte": "UFPR",
+  "imagem": null
+}

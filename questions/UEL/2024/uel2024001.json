@@ -1,0 +1,47 @@
+{
+  "id": "uel2024001",
+  "prova": "UEL",
+  "ano": 2024,
+  "tema": "Astronomia",
+  "subtema": "Gravitação",
+  "dificuldade": "Média",
+  "enunciado": "Segundo a 3ª Lei de Kepler, o quadrado do período orbital de um planeta é proporcional:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "ao raio da órbita",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "ao quadrado do raio",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "ao cubo do raio médio da órbita",
+      "correta": true
+    },
+    {
+      "id": "D",
+      "texto": "à massa do planeta",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "à velocidade orbital",
+      "correta": false
+    }
+  ],
+  "resolucao": "T² ∝ a³ — a Lei dos Períodos de Kepler.",
+  "explicacao": "Kepler mostrou que planetas mais distantes do Sol têm períodos maiores, seguindo T²/a³ constante.",
+  "habilidades": [
+    "H19"
+  ],
+  "tags": [
+    "astronomia",
+    "gravitação"
+  ],
+  "fonte": "UEL",
+  "imagem": null
+}

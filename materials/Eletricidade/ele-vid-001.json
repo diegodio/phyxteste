@@ -1,0 +1,9 @@
+{
+  "id": "ele-vid-001",
+  "titulo": "Lei de Ohm na prática",
+  "tipo": "video",
+  "tema": "Eletricidade",
+  "nivel": "Básico",
+  "descricao": "V = R·i demonstrada com multímetro em bancada.",
+  "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}

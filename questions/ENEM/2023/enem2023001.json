@@ -1,0 +1,47 @@
+{
+  "id": "enem2023001",
+  "prova": "ENEM",
+  "ano": 2023,
+  "tema": "Eletrostática",
+  "subtema": "Lei de Coulomb",
+  "dificuldade": "Média",
+  "enunciado": "Duas cargas puntiformes de +2 μC e +8 μC estão separadas por 30 cm no vácuo (k = 9×10⁹ N·m²/C²). Qual o módulo da força elétrica entre elas?",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "0,8 N",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "1,6 N",
+      "correta": true
+    },
+    {
+      "id": "C",
+      "texto": "3,2 N",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "8,0 N",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "16 N",
+      "correta": false
+    }
+  ],
+  "resolucao": "F = k·q₁·q₂/d² = 9×10⁹ · 2×10⁻⁶ · 8×10⁻⁶ / (0,3)² = 144×10⁻³/0,09 = 1,6 N.",
+  "explicacao": "A Lei de Coulomb diz que a força elétrica é diretamente proporcional ao produto das cargas e inversamente proporcional ao quadrado da distância.",
+  "habilidades": [
+    "H21"
+  ],
+  "tags": [
+    "eletrostática",
+    "lei de coulomb"
+  ],
+  "fonte": "ENEM",
+  "imagem": null
+}

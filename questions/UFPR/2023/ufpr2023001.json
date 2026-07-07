@@ -1,0 +1,47 @@
+{
+  "id": "ufpr2023001",
+  "prova": "UFPR",
+  "ano": 2023,
+  "tema": "Termologia",
+  "subtema": "Dilatação",
+  "dificuldade": "Média",
+  "enunciado": "Uma barra de 2 m de comprimento sofre variação de 50 °C. Sendo α = 2×10⁻⁵ °C⁻¹, sua dilatação linear é:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "0,2 mm",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "1 mm",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "2 mm",
+      "correta": true
+    },
+    {
+      "id": "D",
+      "texto": "4 mm",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "10 mm",
+      "correta": false
+    }
+  ],
+  "resolucao": "ΔL = L₀·α·ΔT = 2 · 2×10⁻⁵ · 50 = 2×10⁻³ m = 2 mm.",
+  "explicacao": "A dilatação linear é proporcional ao comprimento inicial, ao coeficiente do material e à variação de temperatura.",
+  "habilidades": [
+    "H21"
+  ],
+  "tags": [
+    "termologia",
+    "dilatação"
+  ],
+  "fonte": "UFPR",
+  "imagem": null
+}

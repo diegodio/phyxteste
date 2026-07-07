@@ -1,0 +1,10 @@
+{
+  "id": "ele-txt-001",
+  "titulo": "Circuitos: série × paralelo",
+  "tipo": "texto",
+  "tema": "Eletricidade",
+  "nivel": "Básico",
+  "autor": "Physicscool",
+  "descricao": "O guia definitivo para nunca mais errar associação de resistores.",
+  "conteudo": "### Em série\nMesma corrente em todos; tensões se somam. **Req = R₁ + R₂ + ...**\n\n### Em paralelo\nMesma tensão em todos; correntes se somam. **1/Req = 1/R₁ + 1/R₂ + ...**\n\nPara dois resistores: Req = (R₁·R₂)/(R₁+R₂) — o famoso *produto sobre soma*.\n\n> ⚡ A Req em paralelo é sempre **menor** que a menor resistência da associação."
+}

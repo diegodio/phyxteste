@@ -1,0 +1,47 @@
+{
+  "id": "enem2024001",
+  "prova": "ENEM",
+  "ano": 2024,
+  "tema": "Ondulatória",
+  "subtema": "Ondas sonoras",
+  "dificuldade": "Média",
+  "enunciado": "Uma onda sonora de frequência 440 Hz propaga-se no ar a 340 m/s. Seu comprimento de onda é, aproximadamente:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "0,50 m",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "0,77 m",
+      "correta": true
+    },
+    {
+      "id": "C",
+      "texto": "1,00 m",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "1,30 m",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "1,50 m",
+      "correta": false
+    }
+  ],
+  "resolucao": "λ = v/f = 340/440 ≈ 0,77 m.",
+  "explicacao": "A equação fundamental da ondulatória relaciona velocidade, frequência e comprimento de onda: v = λ·f.",
+  "habilidades": [
+    "H22"
+  ],
+  "tags": [
+    "ondulatória",
+    "ondas sonoras"
+  ],
+  "fonte": "ENEM",
+  "imagem": null
+}

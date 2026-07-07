@@ -1,0 +1,47 @@
+{
+  "id": "fuvest2024001",
+  "prova": "FUVEST",
+  "ano": 2024,
+  "tema": "Eletricidade",
+  "subtema": "Circuitos",
+  "dificuldade": "Difícil",
+  "enunciado": "Dois resistores de 6 Ω e 3 Ω associados em paralelo são ligados a uma fonte de 12 V. A corrente total do circuito é:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "2 A",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "3 A",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "4 A",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "6 A",
+      "correta": true
+    },
+    {
+      "id": "E",
+      "texto": "12 A",
+      "correta": false
+    }
+  ],
+  "resolucao": "Req = (6·3)/(6+3) = 2 Ω. i = V/Req = 12/2 = 6 A.",
+  "explicacao": "Em paralelo, a resistência equivalente é menor que a menor das resistências; a corrente total sai da Lei de Ohm.",
+  "habilidades": [
+    "H21"
+  ],
+  "tags": [
+    "eletricidade",
+    "circuitos"
+  ],
+  "fonte": "FUVEST",
+  "imagem": null
+}

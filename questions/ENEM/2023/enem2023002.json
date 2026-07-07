@@ -1,0 +1,47 @@
+{
+  "id": "enem2023002",
+  "prova": "ENEM",
+  "ano": 2023,
+  "tema": "Mecânica",
+  "subtema": "Leis de Newton",
+  "dificuldade": "Fácil",
+  "enunciado": "Um bloco de 4 kg é empurrado sobre superfície sem atrito por uma força horizontal de 20 N. Qual a aceleração do bloco?",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "2 m/s²",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "4 m/s²",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "5 m/s²",
+      "correta": true
+    },
+    {
+      "id": "D",
+      "texto": "10 m/s²",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "20 m/s²",
+      "correta": false
+    }
+  ],
+  "resolucao": "Pela 2ª Lei de Newton: a = F/m = 20/4 = 5 m/s².",
+  "explicacao": "Sem atrito, a única força horizontal é a aplicada; a aceleração é a razão entre força resultante e massa.",
+  "habilidades": [
+    "H20"
+  ],
+  "tags": [
+    "mecânica",
+    "leis de newton"
+  ],
+  "fonte": "ENEM",
+  "imagem": null
+}

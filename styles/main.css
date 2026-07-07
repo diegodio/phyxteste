@@ -1,0 +1,149 @@
+/* ============================================================
+   PHYSICSCOOL — identidade visual
+   Laboratório à noite: void navy + ciano elétrico + âmbar fóton
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+
+:root{
+  --void:#0B1120; --deep:#111A2E; --surface:#16213A;
+  --glass:rgba(255,255,255,.055); --stroke:rgba(255,255,255,.10);
+  --cyan:#22D3EE; --indigo:#818CF8; --photon:#FBBF24;
+  --ion:#34D399; --quark:#FB7185;
+  --ink:#E2E8F0; --ink-2:#94A3B8;
+  --grad:linear-gradient(135deg,#22D3EE 0%,#818CF8 100%);
+  --radius:18px;
+  --font-display:'Space Grotesk',sans-serif;
+  --font-body:'Inter',sans-serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+
+/* ---------- tema claro (toggle via body class injetada) ---------- */
+[data-pc-theme="light"], .pc-light{
+  --void:#F6F8FC; --deep:#FFFFFF; --surface:#FFFFFF;
+  --glass:rgba(11,17,32,.04); --stroke:rgba(11,17,32,.10);
+  --ink:#0B1120; --ink-2:#5B6B84;
+}
+
+/* ---------- base / fundo com campo de partículas ---------- */
+html, body, .stApp{
+  background:
+    radial-gradient(600px 400px at 12% -5%, rgba(34,211,238,.10), transparent 60%),
+    radial-gradient(700px 500px at 95% 10%, rgba(129,140,248,.10), transparent 60%),
+    radial-gradient(500px 500px at 50% 110%, rgba(251,191,36,.05), transparent 60%),
+    var(--void) !important;
+  color:var(--ink);
+  font-family:var(--font-body);
+}
+h1,h2,h3,h4{ font-family:var(--font-display) !important; letter-spacing:-.02em; color:var(--ink) !important;}
+p, li, label, span{ color:var(--ink); }
+[data-testid="stSidebar"]{
+  background:linear-gradient(180deg, rgba(17,26,46,.92), rgba(11,17,32,.96)) !important;
+  border-right:1px solid var(--stroke);
+  backdrop-filter:blur(18px);
+}
+[data-testid="stSidebar"] *{ color:var(--ink); }
+
+/* ---------- logo ---------- */
+.pc-logo{ font-family:var(--font-display); font-weight:700; font-size:1.5rem; color:var(--ink);}
+.pc-logo .oo{
+  background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent;
+  position:relative; padding:0 .04em;
+}
+.pc-tagline{ color:var(--ink-2); font-size:.78rem; letter-spacing:.14em; text-transform:uppercase;}
+
+/* ---------- cards glass ---------- */
+.pc-card{
+  background:var(--glass); border:1px solid var(--stroke); border-radius:var(--radius);
+  padding:1.15rem 1.3rem; backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px);
+  transition:transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+.pc-card:hover{ transform:translateY(-3px); border-color:rgba(34,211,238,.45);
+  box-shadow:0 12px 34px rgba(34,211,238,.10);}
+.pc-metric-label{ color:var(--ink-2); font-size:.75rem; text-transform:uppercase; letter-spacing:.12em;}
+.pc-metric-value{ font-family:var(--font-display); font-size:1.9rem; font-weight:700; line-height:1.15;}
+.pc-metric-sub{ color:var(--ink-2); font-size:.8rem;}
+
+/* ---------- badges ---------- */
+.pc-badge{
+  display:inline-flex; align-items:center; gap:.35rem;
+  font-size:.72rem; font-weight:600; letter-spacing:.03em;
+  padding:.28rem .7rem; border-radius:999px;
+  background:rgba(34,211,238,.12); color:var(--cyan); border:1px solid rgba(34,211,238,.35);
+}
+.pc-badge.amber{ background:rgba(251,191,36,.12); color:var(--photon); border-color:rgba(251,191,36,.4);}
+.pc-badge.green{ background:rgba(52,211,153,.12); color:var(--ion); border-color:rgba(52,211,153,.4);}
+.pc-badge.rose { background:rgba(251,113,133,.12); color:var(--quark); border-color:rgba(251,113,133,.4);}
+.pc-badge.slate{ background:rgba(148,163,184,.12); color:var(--ink-2); border-color:rgba(148,163,184,.35);}
+
+/* ---------- botões streamlit ---------- */
+.stButton>button, .stFormSubmitButton>button{
+  border-radius:12px !important; border:1px solid var(--stroke) !important;
+  background:var(--glass) !important; color:var(--ink) !important;
+  font-family:var(--font-display) !important; font-weight:600 !important;
+  transition:all .2s ease !important;
+}
+.stButton>button:hover{ border-color:var(--cyan) !important; color:var(--cyan) !important;
+  box-shadow:0 0 0 3px rgba(34,211,238,.15) !important;}
+.stButton>button[kind="primary"], .stFormSubmitButton>button[kind="primary"]{
+  background:var(--grad) !important; color:#06121c !important; border:none !important;
+}
+.stButton>button[kind="primary"]:hover{ filter:brightness(1.08); box-shadow:0 8px 26px rgba(34,211,238,.35) !important;}
+
+/* ---------- inputs ---------- */
+div[data-baseweb="select"]>div, .stTextInput input, .stNumberInput input{
+  background:var(--glass) !important; border-color:var(--stroke) !important;
+  border-radius:12px !important; color:var(--ink) !important;
+}
+
+/* ---------- barra de progresso XP ---------- */
+.pc-bar{ height:10px; background:rgba(255,255,255,.08); border-radius:999px; overflow:hidden;}
+.pc-bar>span{ display:block; height:100%; background:var(--grad); border-radius:999px;
+  transition:width .8s cubic-bezier(.22,1,.36,1);}
+.pc-bar.amber>span{ background:linear-gradient(90deg,#FBBF24,#FB923C);}
+
+/* ---------- cientista / trilha ---------- */
+.pc-sci{ display:flex; gap:.9rem; align-items:center;}
+.pc-sci img{ width:56px; height:56px; border-radius:50%; border:2px solid var(--stroke);
+  background:var(--deep);}
+.pc-sci.unlocked img{ border-color:var(--photon); box-shadow:0 0 18px rgba(251,191,36,.35);}
+.pc-sci.locked{ opacity:.45; filter:grayscale(1);}
+
+/* ---------- alternativa de questão ---------- */
+.pc-alt-ok{ border-left:3px solid var(--ion) !important; }
+.pc-alt-bad{ border-left:3px solid var(--quark) !important; }
+
+/* ---------- animação de conquista ---------- */
+@keyframes pc-pop{ 0%{transform:scale(.6); opacity:0;} 60%{transform:scale(1.08);} 100%{transform:scale(1); opacity:1;} }
+.pc-achievement{
+  animation:pc-pop .6s cubic-bezier(.22,1,.36,1);
+  background:linear-gradient(135deg, rgba(251,191,36,.16), rgba(34,211,238,.10));
+  border:1px solid rgba(251,191,36,.5); border-radius:var(--radius);
+  padding:1.2rem 1.4rem; text-align:center;
+}
+
+/* fade-in geral suave */
+@keyframes pc-fade{ from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;} }
+.pc-fade{ animation:pc-fade .5s ease both; }
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation:none !important; transition:none !important; }
+}
+/* responsivo */
+@media (max-width:760px){ .pc-metric-value{ font-size:1.5rem; } }
+
+/* ============================================================
+   👇 OCULTAÇÃO DOS VESTÍGIOS DO STREAMLIT (ícones, menu, GitHub)
+   Este bloco esconde: menu hambúrguer, rodapé "Made with Streamlit",
+   botão Deploy, toolbar superior, badge do viewer, links GitHub/fork
+   e o indicador de status. Edite aqui para reexibir algo.
+   ============================================================ */
+#MainMenu, footer, header,
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"],
+[data-testid="stHeader"],
+.stDeployButton, [data-testid="stAppDeployButton"],
+.viewerBadge_container__1QSob, .viewerBadge_link__1S137,
+a[href*="github.com"], a[href*="streamlit.io"]{
+  display:none !important; visibility:hidden !important;
+}

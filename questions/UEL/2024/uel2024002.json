@@ -1,0 +1,47 @@
+{
+  "id": "uel2024002",
+  "prova": "UEL",
+  "ano": 2024,
+  "tema": "Mecânica",
+  "subtema": "Cinemática",
+  "dificuldade": "Fácil",
+  "enunciado": "Um carro percorre 180 km em 2 horas. Sua velocidade média é:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "45 km/h",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "60 km/h",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "80 km/h",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "90 km/h",
+      "correta": true
+    },
+    {
+      "id": "E",
+      "texto": "100 km/h",
+      "correta": false
+    }
+  ],
+  "resolucao": "v = Δs/Δt = 180/2 = 90 km/h.",
+  "explicacao": "Velocidade média é o quociente entre deslocamento total e intervalo de tempo.",
+  "habilidades": [
+    "H20"
+  ],
+  "tags": [
+    "mecânica",
+    "cinemática"
+  ],
+  "fonte": "UEL",
+  "imagem": null
+}

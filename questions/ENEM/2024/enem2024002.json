@@ -1,0 +1,47 @@
+{
+  "id": "enem2024002",
+  "prova": "ENEM",
+  "ano": 2024,
+  "tema": "Óptica",
+  "subtema": "Refração",
+  "dificuldade": "Difícil",
+  "enunciado": "Um raio de luz passa do ar (n=1) para um vidro (n=1,5) com ângulo de incidência de 30°. O seno do ângulo de refração vale:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "1/4",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "1/3",
+      "correta": true
+    },
+    {
+      "id": "C",
+      "texto": "1/2",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "2/3",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "3/4",
+      "correta": false
+    }
+  ],
+  "resolucao": "Snell: n₁·sen30° = n₂·senθ → 1·0,5 = 1,5·senθ → senθ = 1/3.",
+  "explicacao": "Na refração, o produto do índice pelo seno do ângulo se conserva (Lei de Snell-Descartes).",
+  "habilidades": [
+    "H22"
+  ],
+  "tags": [
+    "óptica",
+    "refração"
+  ],
+  "fonte": "ENEM",
+  "imagem": null
+}

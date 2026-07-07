@@ -1,0 +1,47 @@
+{
+  "id": "enem2023003",
+  "prova": "ENEM",
+  "ano": 2023,
+  "tema": "Termologia",
+  "subtema": "Calorimetria",
+  "dificuldade": "Média",
+  "enunciado": "Que quantidade de calor é necessária para aquecer 200 g de água de 20 °C a 70 °C? (c = 1 cal/g·°C)",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "1 000 cal",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "5 000 cal",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "10 000 cal",
+      "correta": true
+    },
+    {
+      "id": "D",
+      "texto": "14 000 cal",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "20 000 cal",
+      "correta": false
+    }
+  ],
+  "resolucao": "Q = m·c·ΔT = 200 · 1 · 50 = 10 000 cal.",
+  "explicacao": "O calor sensível depende da massa, do calor específico e da variação de temperatura.",
+  "habilidades": [
+    "H21"
+  ],
+  "tags": [
+    "termologia",
+    "calorimetria"
+  ],
+  "fonte": "ENEM",
+  "imagem": null
+}

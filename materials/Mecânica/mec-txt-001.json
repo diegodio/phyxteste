@@ -1,0 +1,10 @@
+{
+  "id": "mec-txt-001",
+  "titulo": "As Três Leis de Newton sem mistério",
+  "tipo": "texto",
+  "tema": "Mecânica",
+  "nivel": "Básico",
+  "autor": "Physicscool",
+  "descricao": "O alicerce de toda a mecânica clássica, explicado com exemplos do dia a dia.",
+  "conteudo": "### 1ª Lei — Inércia\nTodo corpo permanece em repouso ou em MRU a menos que uma força resultante atue sobre ele. É por isso que você é 'jogado' para frente quando o ônibus freia: seu corpo quer continuar em movimento.\n\n### 2ª Lei — F = m·a\nA força resultante é o produto da massa pela aceleração. Dobrou a força? Dobrou a aceleração. Dobrou a massa? Metade da aceleração.\n\n### 3ª Lei — Ação e Reação\nForças vêm sempre em pares, em corpos **diferentes**. O foguete sobe porque empurra os gases para baixo.\n\n> 💡 Pegadinha clássica de vestibular: ação e reação **nunca se anulam**, pois atuam em corpos distintos."
+}

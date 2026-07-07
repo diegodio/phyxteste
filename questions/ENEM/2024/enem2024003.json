@@ -1,0 +1,47 @@
+{
+  "id": "enem2024003",
+  "prova": "ENEM",
+  "ano": 2024,
+  "tema": "Hidrostática",
+  "subtema": "Empuxo",
+  "dificuldade": "Média",
+  "enunciado": "Um objeto de volume 2×10⁻³ m³ está totalmente imerso em água (ρ = 1000 kg/m³, g = 10 m/s²). O empuxo sobre ele vale:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "2 N",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "10 N",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "20 N",
+      "correta": true
+    },
+    {
+      "id": "D",
+      "texto": "100 N",
+      "correta": false
+    },
+    {
+      "id": "E",
+      "texto": "200 N",
+      "correta": false
+    }
+  ],
+  "resolucao": "E = ρ·g·V = 1000 · 10 · 2×10⁻³ = 20 N.",
+  "explicacao": "Princípio de Arquimedes: o empuxo é igual ao peso do fluido deslocado.",
+  "habilidades": [
+    "H20"
+  ],
+  "tags": [
+    "hidrostática",
+    "empuxo"
+  ],
+  "fonte": "ENEM",
+  "imagem": null
+}

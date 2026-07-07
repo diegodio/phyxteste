@@ -1,0 +1,47 @@
+{
+  "id": "fuvest2024002",
+  "prova": "FUVEST",
+  "ano": 2024,
+  "tema": "Magnetismo",
+  "subtema": "Força magnética",
+  "dificuldade": "Difícil",
+  "enunciado": "Uma carga de 2 C move-se a 10 m/s perpendicularmente a um campo magnético de 0,5 T. A força magnética sobre ela vale:",
+  "alternativas": [
+    {
+      "id": "A",
+      "texto": "1 N",
+      "correta": false
+    },
+    {
+      "id": "B",
+      "texto": "2,5 N",
+      "correta": false
+    },
+    {
+      "id": "C",
+      "texto": "5 N",
+      "correta": false
+    },
+    {
+      "id": "D",
+      "texto": "10 N",
+      "correta": true
+    },
+    {
+      "id": "E",
+      "texto": "20 N",
+      "correta": false
+    }
+  ],
+  "resolucao": "F = q·v·B·sen90° = 2 · 10 · 0,5 = 10 N.",
+  "explicacao": "A força de Lorentz é máxima quando velocidade e campo são perpendiculares.",
+  "habilidades": [
+    "H21"
+  ],
+  "tags": [
+    "magnetismo",
+    "força magnética"
+  ],
+  "fonte": "FUVEST",
+  "imagem": null
+}
